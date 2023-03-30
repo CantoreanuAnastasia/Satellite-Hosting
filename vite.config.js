@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import postcssImportSync from 'postcss-import-sync';
 
 export default defineConfig({
+  base: '/Satellite-Hosting/',
   css: {
     modules: {
       auto: true,
