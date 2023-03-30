@@ -1,0 +1,115 @@
+@media all and (width > 500px) {
+    .secondary>p {
+        font-size: var(--s-3vw);
+    }
+
+    .title>header>h2 {
+        font-size: var(--s-5vw);
+    }
+
+    .title>header>p {
+        font-size: var(--s-3vw);
+
+    }
+
+    .steps-list {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2vw;
+    }
+
+    .steps {
+        width: 100%;
+    }
+
+    .steps .step {
+        flex-basis: calc(50% - 1.5rem);
+        /* set the flex basis to half of the container's width minus the gap between the items */
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+
+    .steps>li {
+        flex-direction: column;
+    }
+
+    .steps-p,
+    .steps-bold-words {
+        font-size: var(--s-2vw);
+    }
+
+    .how-it-works-container {
+        background-image: url('../assets/imgs/circuit-board.svg');
+    }
+
+    .support-container {
+        background-image: url('../assets/imgs/wave.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 150%;
+    }
+
+    .title>header>p {
+        font-weight: var(--fw-bold);
+    }
+
+    .choose-your-plan-container>.title>h1,
+    .name-pricing>header>h2 {
+        font-size: var(--s-5vw);
+    }
+
+    .choose-your-plan-container>.title>p {
+        font-size: var(--s-3vw);
+    }
+
+    .choose-your-plan-container>.title {
+        padding-bottom: 10vw;
+    }
+
+    .pricing-tables {
+        align-items: center;
+        gap: 12vw;
+    }
+
+    .plan {
+        gap: 10vw;
+        width: 60vw;
+    }
+
+    .recommended>h1 {
+        font-size: var(--s-3vw);
+        margin-top: 0;
+    }
+
+    .sign-up-container>.container>p {
+        font-size: var(--s-3vw);
+    }
+
+    .perks>li>span,
+    strong {
+        font-size: var(--s-3vw);
+    }
+
+    .perks {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .nav-sidebar a {
+        font-size: var(--s-4vw)
+    }
+
+    .testimonials h1>strong {
+        font-size: var(--s-5vw);
+    }
+
+    .footer {
+        background-image: url('../assets/imgs/footer-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 110%;
+    }
+}

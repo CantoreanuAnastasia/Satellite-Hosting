@@ -1,0 +1,36 @@
+:root {
+    /* Colors */
+    --clr-primary: hsl(246, 61%, 6%);
+    --clr-secondary: hsl(207, 100%, 62%);
+    --clr-accent: #d6e6f5;
+    --clr-bg: hsl(210, 25%, 97%);
+    --clr-neutral: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-secondary: 'Heebo', sans-serif;
+
+    /* Font-weights */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    /* Default text s */
+    --fs-14: 0.875rem;
+
+    /* Paddings */
+    --sr-padding-sides: 10vw;
+    --sr-padding-tb: 14vw;
+
+    /* Changeble ss */
+    --s-1vw: 1vw;
+    --s-2vw: 2vw;
+    --s-3vw: 3vw;
+    --s-4vw: 4vw;
+    --s-5vw: 5vw;
+    --s-6vw: 6vw;
+    --s-7vw: 7vw;
+    --s-8vw: 8vw;
+    --s-9vw: 9vw;
+    --s-10vw: 10vw;
+}

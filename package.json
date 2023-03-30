@@ -9,6 +9,16 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.2.0"
-  }
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
+    "postcss-import-sync": "^7.1.4",
+    "postcss-nested": "^6.0.1",
+    "vite": "^4.2.1"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
