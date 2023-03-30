@@ -94,7 +94,7 @@ strong {
 }
 
 .header-and-hero {
-  background: url(assets/imgs/bg.png);
+  background: url('../assets/imgs/bg.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
